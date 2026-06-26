@@ -5,7 +5,7 @@ require_once('utils.php');
  * Default database values.  Override with LSP_SECRETS below
  */
  $DB_TYPE = 'mysql';
- $DB_HOST = "localhost";
+ $DB_HOST = "127.0.0.1";
  $DB_USER = "someuser";
  $DB_PASS = "P@SSW0RD";
  $DB_DATABASE = "somedatabase";
