@@ -1,0 +1,7 @@
+# Keeps a copy of the site, such as a staging, out of search engines: every
+# response says noindex, and robots.txt turns crawlers away.
+header X-Robots-Tag "noindex, nofollow"
+respond /robots.txt <<TXT
+	User-agent: *
+	Disallow: /
+	TXT 200
