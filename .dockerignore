@@ -1,0 +1,9 @@
+.git
+.idea
+.env.local
+.env.*.local
+.phpunit.cache
+var
+vendor
+tmp
+public/bundles
